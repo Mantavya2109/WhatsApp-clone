@@ -1,1 +1,1 @@
-Whatsapp clone with socket io
+Whatsapp clone with socket io with MERN stack
