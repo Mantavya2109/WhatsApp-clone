@@ -11,7 +11,7 @@ const app = express();
 
 const PORT = process.env.PORT;
 
-app.use(express.json()); //allow you to extract json data out of body
+app.use(express.json({ limit: "10mb" })); //allow you to extract json data out of body
 
 app.use(cookieParser());
 app.use(
