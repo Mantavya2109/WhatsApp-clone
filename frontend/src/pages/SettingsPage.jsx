@@ -3,10 +3,10 @@ import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
 
 const PREVIEW_MESSAGES = [
-  { id: 1, content: "Hey! How's it going?", isSent: false },
+  { id: 1, content: "Abe! aj khane chale?", isSent: false },
   {
     id: 2,
-    content: "I'm doing great! Just working on some new features.",
+    content: "Ha thik hai, Food-street mein milte hai.",
     isSent: true,
   },
 ];
@@ -15,7 +15,7 @@ const SettingsPage = () => {
   const { theme, setTheme } = useThemeStore();
 
   return (
-    <div className="h-screen container mx-auto px-4 pt-20 max-w-5xl">
+    <div className="min-h-screen container mx-auto px-4 pt-20 max-w-5xl">
       <div className="space-y-6">
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-semibold">Theme</h2>
@@ -66,7 +66,7 @@ const SettingsPage = () => {
                       J
                     </div>
                     <div>
-                      <h3 className="font-medium text-sm">John Doe</h3>
+                      <h3 className="font-medium text-sm">Amit Shah</h3>
                       <p className="text-xs text-base-content/70">Online</p>
                     </div>
                   </div>

@@ -28,7 +28,7 @@ const App = () => {
       </div>
     );
   return (
-    <div data-theme={theme}>
+    <div className="min-h-screen bg-base-200" data-theme={theme}>
       <Navbar />
       <Routes>
         <Route
